@@ -1,5 +1,5 @@
 {
-  "name": "@shayanssiddiqui/project04_currency_converter",
+  "name": "@shayansiddiqui/project04_currency_converter",
   "version": "1.0.0",
   "description": "This is a currency converter based on typescript and inquirer",
   "main": "index.js",
@@ -15,5 +15,9 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
